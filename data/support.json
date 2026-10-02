@@ -1,0 +1,19 @@
+{
+    "version": "1",
+    "mail": {
+        "from_name": "",
+        "from_email": ""
+    },
+    "slack": {
+        "enabled": false,
+        "webhook_url": ""
+    },
+    "topics": [
+        {"value": "general", "label": "General", "enabled": true},
+        {"value": "bug", "label": "Bug", "enabled": true},
+        {"value": "installation", "label": "Installation", "enabled": true},
+        {"value": "module", "label": "Module", "enabled": true},
+        {"value": "theme", "label": "Theme", "enabled": true},
+        {"value": "account", "label": "Account", "enabled": true}
+    ]
+}
