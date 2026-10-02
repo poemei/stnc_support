@@ -1,0 +1,23 @@
+{
+    "name": "STNC Support Module",
+    "module": "support",
+    "version": "1.0.0",
+    "description": "STN Chain website support ticket management with Slack ticket-created notifications.",
+    "creator": "PM",
+    "domain": "stn-chain.org",
+    "certified": "No",
+    "database_tables": ["support_tickets", "support_replies", "support_events"],
+    "files": [
+        "controllers/support.php",
+        "models/support_model.php",
+        "libraries/slack_notifier.php",
+        "views/index.php",
+        "views/ticket.php",
+        "views/admin/index.php",
+        "views/admin/ticket.php",
+        "sql/schema.sql",
+        "docs/README.md",
+        "docs/CHANGELOG.md"
+    ],
+    "routes": ["index", "ticket"]
+}
